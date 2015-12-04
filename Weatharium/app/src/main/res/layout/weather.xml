@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF00FFFF"
+    android:textAlignment="center"
+    android:id="@+id/weather_content">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context="com.exsoft.weatharium.view.MainActivity$PlaceholderFragment" >
+
+
+
+        <TextView
+            android:id="@+id/weather_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="100sp"
+            android:text="ico"
+            android:layout_marginTop="41dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/current_temperature_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40sp"
+            android:text="temperature" />
+
+        <TextView
+            android:id="@+id/details_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weather_icon"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="details" />
+
+    </RelativeLayout>
+
+</LinearLayout>

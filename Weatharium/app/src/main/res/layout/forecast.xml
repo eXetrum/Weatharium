@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF00FFFF"
+    android:textAlignment="center"
+    android:id="@+id/forecast_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context="com.exsoft.weatharium.view.MainActivity$PlaceholderFragment"
+        android:gravity="fill_vertical"
+        android:weightSum="2">
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <TableLayout
+                    android:id="@+id/forecast_table"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical">
+                </TableLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
